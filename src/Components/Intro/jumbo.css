@@ -1,0 +1,25 @@
+.intro-text {
+    font-family: SF Pro Display,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 8.6rem;
+    color: #fff;
+    margin-bottom: 1.6rem;
+}
+.hire{
+    width: 30%;
+    height: 4.8rem;
+    background: #0fb;
+    box-shadow: 0 1.6rem 1.6rem rgb(51 51 51 / 25%);
+    border-radius: 3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    text-decoration: none;
+}
+p.lead{
+    font-size: 2.2rem;
+}
