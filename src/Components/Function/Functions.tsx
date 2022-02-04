@@ -2,6 +2,7 @@ import React from 'react';
 import './function.css';
 import logo from '../../images/dev.png';
 import logo2 from '../../images/logo.png';
+import { CloudFogFill } from 'react-bootstrap-icons';
 
 const Functions = () => {
     return (
@@ -46,10 +47,10 @@ const Functions = () => {
                     data-aos-delay="600"
                     data-aos-easing="ease-in-cubic">
                         <div>
-                            <img src="media/digital-marketing.svg" alt="" />
+                            <CloudFogFill size={125} color='yellow' className='mb-4'/>
                         </div>
-                        <h5>Digital Marketing</h5>
-                        <p> I identify and evaluates new digital technologies and use web analytics tools to measure site traffic to better optimize marketing campaigns. </p>
+                        <h5>Cloud Services</h5>
+                        <p> I identify with Microsoft Azure Cloud and IBM Cloud solutions. I am capable of deploying full scalable applications, serverless, computing, Dockerization and cloud resource monitoring.</p>
                     </div>
                 </div>
             </div>

@@ -16,22 +16,22 @@ const Process = () => {
             </div>
             <div className="cards-wrapper">
                 <div className="card idea aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-                    <LightbulbFill color="royalblue" size={40} style={{marginBottom:'20px'}}/>
+                    <LightbulbFill color="royalblue" size={50} style={{marginBottom:'20px'}}/>
                     <h6>Discover</h6>
-                    <p>I conduct user research to identify the problem I want to solve.</p>
+                    <p>Conduct user orientation to identify the key business case I want to solve.</p>
                 </div>
                 <div className="card plan aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
-                    <Journals color="yellow" size={40} style={{marginBottom:'20px'}}/>
+                    <Journals color="yellow" size={50} style={{marginBottom:'20px'}}/>
                     <h6>Define</h6>
-                    <p>I brainstorm possible design solutions to the identified problem.</p>
+                    <p>I brainstorm possible design solutions to the identified business case.</p>
                 </div>
                 <div className="card sketch aos-init aos-animate" data-aos="zoom-in" data-aos-delay="600">
-                    <Bezier2 color="pink" size={40} style={{marginBottom:'20px'}}/>
-                    <img src="media/work-sketch.svg" alt="" />
-                    <h6>Ideate</h6> <p>I create wireframes and sketches of the product I’m about to design.</p>
+                    <Bezier2 color="pink" size={50} style={{marginBottom:'20px'}}/>
+                    <h6>Ideate</h6>
+                     <p>I create wireframes and sketches of the product I’m about to design.</p>
                 </div>
                 <div className="card design aos-init aos-animate" data-aos="zoom-in" data-aos-delay="800">
-                    <Sliders color="green" size={40} style={{marginBottom:'20px'}}/>
+                    <Sliders color="green" size={50} style={{marginBottom:'20px'}}/>
                     <h6>Prototype</h6>
                     <p>I create high fidelity design and prototype the screens.</p>
                 </div>

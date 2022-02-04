@@ -1,4 +1,5 @@
 import React from 'react';
+import { Mailbox,PhoneVibrateFill, PinMap, SendDash } from 'react-bootstrap-icons';
 import './contact.css';
 
 const Contact = () => {
@@ -19,21 +20,21 @@ const Contact = () => {
             <div className="left-icons">
                 <div className="contact-info aos-init aos-animate" data-aos="fade-up">
                     <div className="contact-image-div">
-                        <img src="media/contact-address.svg" alt="" />
+                        <PinMap color='black' size={35}/>
                     </div>
-                    <p>G.R.A Ikeja, Lagos</p>
+                    <p> Nairobi, Kenya</p>
                 </div>
                 <div className="contact-info aos-init aos-animate" data-aos="fade-up">
                     <div className="contact-image-div">
-                        <img src="media/contact-email.svg" alt="" />
+                        <Mailbox color='black' size={35}/>
                     </div>
-                    <a href="mailto:oluwakemiadeleke20@gmail.com">oluwakemiadeleke20@gmail.com</a>
+                    <a href="mailto:oluwakemiadeleke20@gmail.com">noelosiroski@gmail.com</a>
                 </div>
                 <div className="contact-info aos-init aos-animate" data-aos="fade-up">
                     <div className="contact-image-div">
-                        <img src="media/contact-phone.svg" alt="" />
+                        <PhoneVibrateFill color='black' size={35}/>
                     </div>
-                    <a href="tel:+234-813-640-4552">+234-813-640-4552</a>
+                    <a href="tel:+234-813-640-4552">+254-729-732-440</a>
                 </div>
             </div>
             <form className="contact-form aos-init aos-animate" data-aos="fade-up" name="contact" method="POST">
@@ -47,7 +48,10 @@ const Contact = () => {
                     <input type="number" placeholder="Phone Number" name="phone-number" required />
                 </div>
                 <textarea name="message" id="" cols={30} rows={10} placeholder="Enter your message" required></textarea>
-                <button type="submit">Submit</button>
+                <button type="submit">
+                    <SendDash color='black' size={35}/> 
+                    <span style={{marginLeft:"10px"}}>Submit</span>
+                </button>
             </form>
         </div>
     </section>);

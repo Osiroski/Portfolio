@@ -20,7 +20,7 @@
 }
 .workflow-section .cards-wrapper .card {
   width: 20rem;
-  height: 20rem;
+  height: 22rem;
   border-radius: 0.8rem;
   background: #2b2b2b;
   padding: 3.8rem 2rem 2.2rem;
@@ -39,7 +39,7 @@
 .workflow-section .cards-wrapper .card:hover p {
   color: #303030;
 }
-.workflow-section .cards-wrapper .card img {
+.workflow-section .cards-wrapper .card svg {
   width: 2.4rem;
   height: 2.4rem;
   margin-bottom: 1.8rem;
