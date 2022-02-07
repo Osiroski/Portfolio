@@ -1,5 +1,6 @@
-import React, { ChangeEvent, FormEvent, useState } from 'react';
+import React, { ChangeEvent, FormEvent, FormEventHandler, useState } from 'react';
 import { Mailbox, PhoneVibrateFill, PinMap, SendDash } from 'react-bootstrap-icons';
+import { sendEmail } from '../../Services/Email';
 import './contact.css';
 
 const initialState = {
@@ -12,15 +13,15 @@ const initialState = {
 const Contact = () => {
     const [data, setData] = useState(initialState);
     const onDataChange = (event: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>) => {
-        const title = event.currentTarget.name;
-        const value = event.currentTarget.value;
-        setData({ ...data, [title]: value })
+        setData({ ...data, [event.target.name]: event.target.value })
     }
-    const sendEmail=(event:FormEvent)=>{
+    const sendContact=(event:FormEvent<HTMLFormElement>)=>{
         event.preventDefault();
-        console.log(data)
+        sendEmail(data)
+        console.log(event)
     }
-    return (<section className="contact-section container" id="contact">
+    return (
+    <section className="contact-section container" id="contact">
         <div className="header contact-header">
             <div className="inner">
                 <div data-aos="fade-up" className="aos-init aos-animate">
@@ -54,20 +55,23 @@ const Contact = () => {
                     <a href="tel:+234-813-640-4552">+254-729-732-440</a>
                 </div>
             </div>
-            <form className="contact-form aos-init aos-animate" data-aos="fade-up" name="contact" onSubmit={sendEmail}>
-                <input type="text" placeholder="Full Name" name="name" required onChange={onDataChange} />
+            <form className="contact-form aos-init aos-animate" data-aos="fade-up" name="contact" onSubmit={sendContact}>
+                <input type="text" placeholder="Full Name" name="name" id="name" required onChange={onDataChange} value={data.name} />
                 <div>
-                    <input type="email" placeholder="Email" name="email" required onChange={onDataChange} />
-                    <input type="number" placeholder="Phone Number" name="phone" required onChange={onDataChange} />
+                    <input type="email" placeholder="Email" name="email" id="email" required onChange={onDataChange} value={data.email} />
+                    <input type="number" placeholder="Phone Number" name="phone" id="phone" required onChange={onDataChange} value={data.phone} />
                 </div>
-                <textarea name="message" id="" cols={30} rows={10} placeholder="Enter your message" required onChange={onDataChange}></textarea>
+                <textarea name="message" cols={30} rows={10} placeholder="Enter your message" id="message" required onChange={onDataChange} value={data.message}></textarea>
                 <button type="submit">
                     <SendDash color='black' size={35} />
                     <span style={{ marginLeft: "10px" }}>Submit</span>
                 </button>
             </form>
         </div>
-    </section>);
+    </section>
+    );
 };
 
 export default Contact;
+
+
