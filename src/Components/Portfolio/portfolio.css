@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap);
-@import url(https://db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');;
 
 
 
@@ -53,7 +53,7 @@ html {
   transition: all 1s ease;
   height: 50rem;
   flex: 0 1 30rem;
-  font-family: SF Pro Display, sans-serif;
+  font-family: Major Mono Display, sans-serif;
 }
 .flex-container .profile-container:before {
   content: "";
@@ -368,7 +368,7 @@ html {
   width: 15rem;
   position: relative;
   text-align: center;
-  font-family: SF Pro Display, sans-serif;
+  font-family: Major Mono Display, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.4rem;
@@ -391,7 +391,7 @@ html {
   color: #ffe240;
 }
 .skills-section .skills-boxes-wrapper .box h6 {
-  font-family: SF Pro Display, sans-serif;
+  font-family: Major Mono Display, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -455,7 +455,7 @@ main {
   padding: 2.8rem 4.1rem;
 }
 .case-studies-body .case-card .text-section h3 {
-  font-family: SF Pro Display, sans-serif;
+  font-family: Major Mono Display, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.8rem;
@@ -464,7 +464,7 @@ main {
   margin-bottom: 1.6rem;
 }
 .case-studies-body .case-card .text-section p {
-  font-family: SF Pro Display, sans-serif;
+  font-family: Major Mono Display, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
@@ -480,7 +480,7 @@ main {
   color: #303030;
   padding: 1.3rem 4.8rem;
   font-size: 1.6rem;
-  font-family: SF Pro Display, sans-serif;
+  font-family: Major Mono Display, sans-serif;
   font-weight: 500;
 }
 .case-studies-body .case-card .text-section a:hover {
