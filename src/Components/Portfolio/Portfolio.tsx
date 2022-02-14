@@ -15,44 +15,44 @@ const Portfolio = () => {
                 <div className="profile-container port-container-1">
                     <div className="profile-wrapper">
                         <div className="profile-card">
-                            <h4>Tadio Mobile App</h4>
-                            <p>A cryptocurrency mobile app which allows users buy and sell bitcoins, Etherum, Coinbase and Gift cards. Users can also recharge their mobile numbers from the app directly. </p>
-                            <a href="https://www.behance.net/gallery/104144345/Crypto-App">View Design</a>
+                            <h4>Recyski App</h4>
+                            <p>A digital waste recycling platfrom mobile app which allows users to capitalize on recycling by trading on wastes. Users can also compete with friends for points, prizes and other rewards. </p>
+                            <a href="https://young-wave-31304.herokuapp.com/">View Design</a>
                         </div>
                     </div>
                 </div>
                 <div className="profile-container port-container-2">
                     <div className="profile-wrapper"> <div className="profile-card">
-                        <h4>ITB Agency Website</h4>
-                        <p> ITB media agency is a company into corporate communications and business development. The website was designed to increase the company’s conversion rate of customers. </p>
-                        <a href="https://www.behance.net/gallery/103542267/Media-Agency-website">View Design</a>
+                        <h4>Techie Website</h4>
+                        <p> A frontend SPA to showcase solutions to the Pesapal Junior Developer Challange. The application consists of a webserver that serves static/dnyamic content with a configurable tcp port. </p>
+                        <a href="https://pesapaldev.herokuapp.com/">View Design</a>
                     </div>
                     </div>
                 </div>
                 <div className="profile-container port-container-3">
                     <div className="profile-wrapper">
                         <div className="profile-card">
-                            <h4>DesignPal Mobile App</h4>
-                            <p> DesignPal is an AR mobile app which assists users to scan their new apartment and suggest various interior decorations and styles suitable for that particular apartment. </p>
-                            <a href="https://www.behance.net/gallery/103838241/Interior-Design-App">View Design</a>
+                        <h4>Django Python</h4>
+                            <p> Building and testing RESTFul APIs with Django Restframework and Python 3. The backend supports JWT authenication for login, CRUD requests and Postgresql database </p>
+                            <a href="https://github.com/Osiroski/Recyski_backend">View Design</a>
                         </div>
                     </div>
                 </div>
                 <div className="profile-container port-container-4">
                     <div className="profile-wrapper">
                         <div className="profile-card">
-                            <h4>Afigo Website</h4>
-                            <p> Afigo website is a platform that shows tourists great places in Nigeria. The website was designed with quite a number of features that serves its purpose as a travel agency. </p>
-                            <a href="https://www.behance.net/gallery/103838821/Travel-Website">View Design</a>
+                            <h4>IBM Cloud Computing V2</h4>
+                            <p> This badge is awarded to candidates that have passed the Foundations of IBM Cloud certification exam. They have demonstrated the necessary skills to engage with clients that are looking to select and design a solution that is based on IBM Cloud.</p>
+                            <a href="https://www.credly.com/badges/c9fa417a-64a5-4273-aaf5-0fee889fe88c/public_url">View Design</a>
                         </div>
                     </div>
                 </div>
                 <div className="profile-container port-container-5">
                     <div className="profile-wrapper">
                         <div className="profile-card">
-                            <h4>Pixelshub Mobile App</h4>
-                            <p> PixelsHub is a mobile app which connects professional photographers and creative artists to their potential clients globally. </p>
-                            <a href="https://www.behance.net/gallery/104417865/Photographers-Platform">View Profile</a>
+                            <h4>Plum profile</h4>
+                            <p> Plum is a revolutionary talent assessment platform that powers more objective talent decisions across the employee lifecycle using the predictive power of psychometric data.</p>
+                            <a href="https://secure.plum.io/p/fk4kFYfZC3DKTY88V-jJZg">View Profile</a>
                         </div>
                     </div>
                 </div>

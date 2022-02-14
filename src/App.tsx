@@ -27,7 +27,6 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
-      
       <div className="mobile-nav">
         <div className="container">
           <nav className="nav-bar">
