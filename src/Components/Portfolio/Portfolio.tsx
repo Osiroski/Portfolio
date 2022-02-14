@@ -56,15 +56,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="profile-container port-container-6">
-                    <div className="profile-wrapper">
-                        <div className="profile-card">
-                            <h4>Tuteria Website</h4>
-                            <p> Tuteria Limited is a company which offers both onine and offline tutoring services to people. The landing page was designed to increase customer’s conversion rate and improve usability. </p>
-                            <a href="https://www.behance.net/gallery/104473567/School-Landing-Page">View Profile</a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
     );

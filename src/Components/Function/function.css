@@ -61,6 +61,9 @@
 .services-card.marketing:after {
   background: #8838b4;
 }
+.services-card.backend:after {
+  background: #29d329;
+}
 .services-card div {
   width: 8rem;
   height: 8rem;
@@ -77,6 +80,9 @@
   background: rgba(227, 31, 113, 0.2);
 }
 .services-card.marketing div {
+  background: rgba(136, 56, 180, 0.2);
+}
+.services-card.backend div {
   background: rgba(136, 56, 180, 0.2);
 }
 .services-card h5 {
